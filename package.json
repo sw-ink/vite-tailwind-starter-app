@@ -1,11 +1,13 @@
 {
-  "version": "0.0.0",
+  "name": "vite-tailwind-starter-app",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
   "dependencies": {
+    "@swink/swink-bridge": "^0.0.1",
     "vue": "^3.0.5"
   },
   "devDependencies": {

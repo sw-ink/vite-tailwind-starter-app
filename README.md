@@ -1,3 +1,7 @@
+# Vue 3 + Tailwind + Vite + Typescript Swink starter app
+
+Replace your app id in `.env.example` with your app's id and rename the file to `.env`.
+
 # Vue 3 + Typescript + Vite
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
