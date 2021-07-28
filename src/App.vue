@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-12">
+  <div class="py-12">
     <p class="text-red-600" v-if="!embedded">It doesn't look like we're in a swink.</p>
     <p class="text-blue-600" v-else>We're in a swink!</p>
   </div>
@@ -35,6 +35,5 @@ export default defineComponent({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
