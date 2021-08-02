@@ -2,6 +2,20 @@
 
 Replace your app id in `.env.example` with your app's id and rename the file to `.env`.
 
+Add a build script with your app id as the base path: 
+
+```json
+// package.json
+{
+  "scripts": {
+    ...
+    "build:prod": "vue-tsc --noEmit && vite build --base=/APP_ID/",
+    ...
+  }
+}
+```
+
+
 # Vue 3 + Typescript + Vite
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
