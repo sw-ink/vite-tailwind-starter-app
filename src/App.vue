@@ -22,7 +22,14 @@ export default defineComponent({
     }
   },
   async mounted() {
-    const token = await SwinkBridge.getAppToken()
+    console.log('done');
+    try {
+      console.log('look for token...');
+      const token = await SwinkBridge.getAppToken();
+      console.log('got token', token);
+    } catch (e) {
+      console.log(e);
+    }
     this.embedded = true
   }
 })
